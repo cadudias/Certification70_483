@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Certification70_483", "Certification70_483\Certification70_483.csproj", "{ACD0EE0D-27D0-4F71-9B58-C9EEB3564B20}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Gerenciar Fluxo do Programa", "1 - Gerenciar Fluxo do Programa", "{FC062E69-F409-4A34-9394-CC24C209324B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Implementar processamento multithreading e assíncrono", "1 - Implementar processamento multithreading e assíncrono", "{1AA65CDA-A231-48B9-8AD9-FC805B5E58CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsarBibliotecaTaskParallel", "UsarBibliotecaTaskParallel\UsarBibliotecaTaskParallel.csproj", "{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +15,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACD0EE0D-27D0-4F71-9B58-C9EEB3564B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACD0EE0D-27D0-4F71-9B58-C9EEB3564B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACD0EE0D-27D0-4F71-9B58-C9EEB3564B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACD0EE0D-27D0-4F71-9B58-C9EEB3564B20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AA65CDA-A231-48B9-8AD9-FC805B5E58CA} = {FC062E69-F409-4A34-9394-CC24C209324B}
+		{FBCBB24F-9BDB-4F7B-B4BA-3C1262A35C57} = {1AA65CDA-A231-48B9-8AD9-FC805B5E58CA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4FB97ED9-C3FF-4F7E-9DE0-3B03911C3DC2}
